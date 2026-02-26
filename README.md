@@ -137,8 +137,8 @@ At first glance, the platform is generating meaningful scale. But two numbers de
 
 ### 3.1 Customer Distribution by Frequency
 
-!(img_freq_distribution.jpg)
-<!-- PLACEHOLDER: img_freq_distribution.jpg -->
+![Frequency Distribution]
+([img_freq_distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/78bd3a1d2078d8dcf2c7e6145ee10163f2e4fad7/img_freq_distribution.png)
 
 The frequency breakdown confirms how skewed the customer base is:
 
@@ -154,6 +154,7 @@ The frequency breakdown confirms how skewed the customer base is:
 
 ### 3.2 Revenue per Customer — Monetization Imbalance
 
+![Monetization Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/067de9a44dd9ffb329e4c326f519b64370961850/monetization_imbalance.png)
 The bar chart surfaces a stark monetization gap across value tiers:
 
 - **High Value:** $436.30 per customer
@@ -167,8 +168,6 @@ High Value customers generate **10.9x more revenue per head** than Low Value cus
 ### 3.3 Recency × Value Pivot Tables
 
 The two pivot tables cross-reference **Recency** (Dormant / Aging / Recent) against **Value Segment**, revealing where revenue and customers are actually sitting.
-
-<!-- PLACEHOLDER: img_pivot_revenue.jpg -->
 
 **Revenue by Recency Bucket:**
 
@@ -196,7 +195,7 @@ A second structural signal: across all value segments, Dormant customers **outnu
 
 ### 3.4 Monthly Revenue Trend
 
-<!-- PLACEHOLDER: img_monthly_trend.jpg -->
+![Monthly Trend](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/d0318120af86bb9c8fbc2b6039dc65195b37f301/monthly%20revenue%20trend.png)
 
 Revenue grew steadily from the platform's launch in Q3 2016, accelerating through 2017 and peaking around Q4 2017 before softening in early 2018. The **average monthly revenue of $1.93M** (shown as dashed line) is skewed by the peak period — roughly half of all months fall below this average, indicating the platform has not normalised at its peak run rate.
 
@@ -206,11 +205,11 @@ The Q4 2017 peak is consistent with seasonal shopping trends seen across e-comme
 
 ### 3.5 Impact of Delivery Days on Review Score
 
-<!-- PLACEHOLDER: img_delivery_review.jpg -->
+![Rating](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/be7dafdb8aefbfa63e3f375b54b653c14bf890c3/rating.png)
 
 The scatter plot reveals a clear inverse relationship between delivery speed and customer satisfaction. As delivery days increase, average review scores decline. The platform's **average review score of 3.29 / 5** suggests that delivery performance is meaningfully dragging satisfaction below what product quality alone would warrant.
 
-The practical implication: improving last-mile logistics is not just an operational goal — it is a **retention lever**. Customers who receive slow deliveries are less likely to return, and their lower review scores reduce organic trust signals for new customers.
+The practical implication: improving last-mile logistics is not just an operational goal, it is a **retention lever**. Customers who receive slow deliveries are less likely to return, and their lower review scores reduce organic trust signals for new customers.
 
 ---
 
@@ -226,18 +225,7 @@ The `goodpulse.gold.customer_segmentation` table applies RFM logic combined with
 
 The ten largest segments by customer count:
 
-| Segment | Count |
-|---------|-------|
-| Dormant \| Mid Value \| One-time | 18,800 |
-| Active \| Mid Value \| One-time | 17,900 |
-| At Risk \| Mid Value \| One-time | 17,300 |
-| Dormant \| Low Value \| One-time | 6,500 |
-| Dormant \| High Value \| One-time | 6,300 |
-| At Risk \| Low Value \| One-time | 6,100 |
-| Active \| Low Value \| One-time | 6,100 |
-| Active \| High Value \| One-time | 5,900 |
-| At Risk \| High Value \| One-time | 5,500 |
-| Active \| High Value \| Regular | 593 |
+[!Segment Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Segment%20Distribution.png)
 
 The landscape is overwhelmingly one-time buyers at various lifecycle stages. The **6,300 Dormant High Value one-time buyers** are a critical win-back target — they have demonstrated purchase intent and high spend capacity, they just haven't come back. The **593 Active High Value Regular customers** are the platform's most valuable recurring buyers and should be treated as a VIP tier.
 
@@ -247,10 +235,7 @@ The landscape is overwhelmingly one-time buyers at various lifecycle stages. The
 
 The revenue distribution, broken out by acquisition channel, reveals both the value hierarchy and channel efficiency:
 
-- **Active \| High Value \| One-time** — highest segment revenue at ~$2.6M
-- **At Risk \| High Value \| One-time** — ~$2.2M; this revenue is actively at risk of churning
-- **Active \| Mid Value \| One-time** — ~$2.0M
-- **Dormant \| High Value \| One-time** — ~$1.7M in lapsed revenue
+[!Segment Revenue Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Seg%20Rev%20Dist.png)
 
 **Organic search** dominates acquisition across all high-value segments. This is a positive signal: customers are finding the platform through genuine discovery, not paid dependency. Paid search and social channels are present but contribute a small fraction of revenue — before investing further in these channels, attribution analysis should validate whether they are attracting lower-quality customers or simply underleveraged.
 
