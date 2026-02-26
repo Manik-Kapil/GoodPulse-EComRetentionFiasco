@@ -42,7 +42,7 @@ The company operates across multiple acquisition channels and product categories
 
 The data pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
 
-**Executive Summary**
+**Executive Summary** </br>
 Core Structural Issue: Extremely Low Repeat Rate
 
 The most critical finding is a repeat purchase rate of approximately 0.03%.
@@ -54,7 +54,7 @@ Out of 93,358 customers:
 
 This indicates that GoodPulse operates almost entirely on first-time transactional revenue.
 
-**Revenue Sustainability Risk**
+**Revenue Sustainability Risk**</br>
 Despite generating $15.5M in total revenue, the majority of revenue is sourced from one-time buyers.
 Revenue concentration analysis shows:
 
@@ -65,7 +65,7 @@ Revenue concentration analysis shows:
 
 This indicates significant leakage of previously valuable customers.
 
-**Cohort Retention Analysis**
+**Cohort Retention Analysis**</br>
 Cohort analysis reveals immediate retention decay:
 - Month 0 retention = 100%
 - Month 1 retention drops sharply toward zero
@@ -73,12 +73,12 @@ Cohort analysis reveals immediate retention decay:
 
 This confirms the repeat rate issue at a structural level. The business lacks customer lifecycle stickiness.
 
-**Lifecycle Distribution**
+**Lifecycle Distribution**</br>
 Revenue distribution by lifecycle segment:
 *Dormant > Active > At Risk*
 This means more revenue is sitting in inactive customers than in actively engaged ones. Without retention improvement, revenue will depend entirely on constant acquisition.
 
-**Key Risks Identified**
+**Key Risks Identified**</br>
 
 1. Revenue is acquisition-dependent
 2. Customer lifetime value is structurally constrained
@@ -87,7 +87,7 @@ This means more revenue is sitting in inactive customers than in actively engage
 5. Long-term growth is unstable without retention improvement
 
 
-**Pipeline Layers:**
+**Pipeline Layers:** </br> 
 
 - **Bronze** — Raw ingestion from Amazon S3. Includes Olist orders, customers, reviews, geolocations, and marketing datasets. Profiling covers schema validation and null analysis.
 - **Silver** — Data cleaning, deduplication, column standardisation, and merging of order, customer, and review records into a `unified_user_lifecycle` base table.
@@ -101,7 +101,7 @@ The reporting period spans **Q3 2016 through Q2 2018**, covering **93,358 unique
 
 ---
 
-## 2. OKR Framework
+## 2. OKR Framework </br>
 
 The analysis is structured around the **OKR → KPI → Metric pyramid**. Every data point in this report connects upward to a strategic objective.
 
@@ -109,7 +109,7 @@ The analysis is structured around the **OKR → KPI → Metric pyramid**. Every 
 > - **KPIs** are the metrics that genuinely reflect performance and are influenceable by the team. *(e.g. "Repeat rate is 3%")*
 > - **OKRs** are the change we want to execute — the goals KPIs are in service of.
 
-**Objectives for this reporting period:**
+**Objectives for this reporting period:** </br>
 
 | # | Objective | Primary KPI |
 |---|-----------|-------------|
@@ -120,7 +120,7 @@ The analysis is structured around the **OKR → KPI → Metric pyramid**. Every 
 
 ---
 
-## 3. Executive Overview — Northstar Metrics
+## 3. Executive Overview — Northstar Metrics </br>
 
 ![North Star Metrics](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/b666bc9562480c75cdc9511c1d43c1ce354f4348/img_northstar_metrics.png)
 
@@ -136,7 +136,7 @@ At first glance, the platform is generating meaningful scale. But two numbers de
 
 ---
 
-### 3.1 Customer Distribution by Frequency
+### 3.1 Customer Distribution by Frequency </br>
 
 ![Frequency Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/78bd3a1d2078d8dcf2c7e6145ee10163f2e4fad7/img_freq_distribution.png)
 
@@ -152,7 +152,7 @@ The frequency breakdown confirms how skewed the customer base is:
 
 ---
 
-### 3.2 Revenue per Customer — Monetization Imbalance
+### 3.2 Revenue per Customer — Monetization Imbalance </br>
 
 ![Monetization Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/067de9a44dd9ffb329e4c326f519b64370961850/monetization_imbalance.png)
 
@@ -165,7 +165,7 @@ High Value customers generate **10.9x more revenue per head** than Low Value cus
 
 ---
 
-### 3.3 Recency × Value Pivot Tables
+### 3.3 Recency × Value Pivot Tables </br>
 
 The two pivot tables cross-reference **Recency** (Dormant / Aging / Recent) against **Value Segment**, revealing where revenue and customers are actually sitting.
 
