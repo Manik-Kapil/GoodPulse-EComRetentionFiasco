@@ -130,15 +130,9 @@ At first glance, the platform is generating meaningful scale. But two numbers de
 
 ![Frequency Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/78bd3a1d2078d8dcf2c7e6145ee10163f2e4fad7/img_freq_distribution.png)
 
-The frequency breakdown confirms how skewed the customer base is:
-
-| Segment | Count | Revenue Share |
-|---------|-------|---------------|
-| One-time | 90,600 | 94.03% |
-| Regular (2+ purchases) | 2,800 | 5.87% |
-| Power User | 19 | 0.10% |
-
-97% of all customers have purchased exactly once. While one-time buyers dominate revenue in absolute terms simply because of their volume, the **per-customer revenue gap** tells the real story — Regular customers spend nearly 3x more than one-time buyers, and Power Users spend nearly 11x more. The platform is leaving substantial revenue on the table by not converting even a small fraction of one-time buyers into returning customers.
+- 97% of all customers have purchased exactly once. While one-time buyers dominate revenue in absolute terms simply because of their volume, the **per-customer revenue gap** tells the real story
+— Regular customers spend nearly 3x more than one-time buyers, and Power Users spend nearly 11x more.
+- The platform is leaving substantial revenue on the table by not converting even a small fraction of one-time buyers into returning customers.
 
 ---
 
@@ -151,7 +145,9 @@ The bar chart surfaces a stark monetization gap across value tiers:
 - **Mid Value:** $113.90 per customer
 - **Low Value:** $39.80 per customer
 
-High Value customers generate **10.9x more revenue per head** than Low Value customers. This isn't unusual in e-commerce, but the degree of concentration means that any churn among High Value customers has an outsized negative effect on total revenue. Protecting and growing this tier is the highest-leverage action available to the business.
+- High Value customers generate **10.9x more revenue per head** than Low Value customers. 
+- This isn't unusual in e-commerce, but the degree of concentration means that any churn among High Value customers has an outsized negative effect on total revenue.
+- Protecting and growing this tier is the highest-leverage action available to the business.
 
 ---
 
@@ -175,9 +171,12 @@ The two pivot tables cross-reference **Recency** (Dormant / Aging / Recent) agai
 | High Value | 11.3K | 4.2K | 3.9K |
 | Low Value | 11.2K | 3.8K | 3.7K |
 
-**Key insight — the Dormant High Value problem:** $4.9M in revenue belongs to Dormant High Value customers. This is the single largest revenue block in the entire dataset, and it sits in lapsed customers. These 11,300 people have already demonstrated willingness to make high-value purchases — they simply haven't returned. A targeted win-back campaign for this cohort is the highest-ROI opportunity on the board.
+**Key insight — the Dormant High Value problem:** $4.9M in revenue belongs to Dormant High Value customers. This is the single largest revenue block in the entire dataset, and it sits in lapsed customers. 
+These 11,300 people have already demonstrated willingness to make high-value purchases; they simply haven't returned. 
+*A targeted win-back campaign for this cohort is the highest-ROI opportunity on the board.*
 
-A second structural signal: across all value segments, Dormant customers **outnumber** Recent customers roughly 3:1. The platform is accumulating lapsed customers faster than it is developing active ones.
+A second structural signal: across all value segments, Dormant customers **outnumber** Recent customers roughly 3:1. 
+The platform is accumulating lapsed customers faster than it is developing active ones.
 
 ---
 
@@ -185,7 +184,7 @@ A second structural signal: across all value segments, Dormant customers **outnu
 
 ![Monthly Trend](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/d0318120af86bb9c8fbc2b6039dc65195b37f301/monthly%20revenue%20trend.png)
 
-Revenue grew steadily from the platform's launch in Q3 2016, accelerating through 2017 and peaking around Q4 2017 before softening in early 2018. The **average monthly revenue of $1.93M** (shown as dashed line) is skewed by the peak period — roughly half of all months fall below this average, indicating the platform has not normalised at its peak run rate.
+Revenue grew steadily from the platform's launch in Q3 2016, accelerating through 2017 and peaking around Q4 2017 before softening in early 2018. The **average monthly revenue of $1.93M** (shown as dashed line) is skewed by the peak period, roughly half of all months fall below this average, indicating the platform has not normalised at its peak run rate.
 
 The Q4 2017 peak is consistent with seasonal shopping trends seen across e-commerce broadly. The softening in Q1–Q2 2018 warrants monitoring: it could reflect seasonal normalisation, or it could be the beginning of organic growth deceleration as the addressable customer base matures.
 
@@ -213,7 +212,9 @@ The ten largest segments by customer count:
 
 ![Segment Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Segment%20Distribution.png)
 
-The landscape is overwhelmingly one-time buyers at various lifecycle stages. The **6,300 Dormant High Value one-time buyers** are a critical win-back target — they have demonstrated purchase intent and high spend capacity, they just haven't come back. The **593 Active High Value Regular customers** are the platform's most valuable recurring buyers and should be treated as a VIP tier.
+The landscape is overwhelmingly one-time buyers at various lifecycle stages. 
+The **6,300 Dormant High Value one-time buyers** are a critical win-back target; they have demonstrated purchase intent and high spend capacity, they just haven't come back. 
+The **593 Active High Value Regular customers** are the platform's most valuable recurring buyers and should be treated as a VIP tier.
 
 ---
 
@@ -223,9 +224,10 @@ The revenue distribution, broken out by acquisition channel, reveals both the va
 
 ![Segment Revenue Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Seg%20Rev%20Dist.png)
 
-**Organic search** dominates acquisition across all high-value segments. This is a positive signal: customers are finding the platform through genuine discovery, not paid dependency. Paid search and social channels are present but contribute a small fraction of revenue — before investing further in these channels, attribution analysis should validate whether they are attracting lower-quality customers or simply underleveraged.
+**Organic search** dominates acquisition across all high-value segments. This is a positive signal: customers are finding the platform through genuine discovery, not paid dependency. 
+Paid search and social channels are present but contribute a small fraction of revenue — before investing further in these channels, attribution analysis should validate whether they are attracting lower-quality customers or simply underleveraged.
 
-> ⚠️ **Urgent flag:** $2.2M sitting in *At Risk \| High Value \| One-time* is the highest-urgency retention priority. These customers have a purchase history; targeted re-engagement can convert them back to Active. The cost of retention is always lower than the cost of new acquisition.
+> ⚠️ **Urgent flag:** $2.2M sitting in *At Risk \| High Value \| One-time* is the highest-urgency retention priority. These customers have a purchase history; **targeted re-engagement can convert them back to Active**. The cost of retention is always lower than the cost of new acquisition.
 
 ---
 
@@ -262,12 +264,12 @@ The heatmap, derived from `goodpulse.gold.cohort_retention`, tracks what percent
 
 **Key findings:**
 
-- Across all mature cohorts, Period 1 retention sits between **0.3% and 0.6%** — meaning fewer than 1 in 150 customers makes a second purchase in the following period
-- Retention does not meaningfully improve across cohort generations — the Q3 2017 cohort (0.6% at index 1) performs similarly to Q1 2018 (0.4%) — there is no evidence of structural improvement over time
+- Across all mature cohorts, Period 1 retention sits between **0.3% and 0.6%**, meaning fewer than 1 in 150 customers makes a second purchase in the following period
+- Retention does not meaningfully improve across cohort generations, the Q3 2017 cohort (0.6% at index 1) performs similarly to Q1 2018 (0.4%), there is no evidence of structural improvement over time
 - The retention problem is concentrated at the **point of second purchase conversion**, not at later stages. Customers who do make a second purchase tend to show some, if low, continued activity at indices 3–6
 - This pattern is consistent with the **3% platform-wide repeat rate** — the cohort view confirms it is structural
 
-The absence of improvement across cohort generations is the **critical signal** here. It rules out "early platform growing pains" as an explanation,   ` the retention problem persists regardless of when customers were acquired.
+The absence of improvement across cohort generations is the **critical signal** here. It rules out "early platform growing pains" as an explanation, `the retention problem persists regardless of when customers were acquired.
 
 ---
 
@@ -276,9 +278,17 @@ The absence of improvement across cohort generations is the **critical signal** 
 ![Acquisition Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/16eeac8c8d19a8600ec52930d8373e34ac939a30/GoodPulse%20-%20Executive%20Dashboard_Untitled%20Page_Bar%20chart%20(1).png)
 
 
-`online_medium` dominates volume entirely, 83K customers and $13.8M represents **89% of total customers and 89% of total revenue**. The platform is near-entirely dependent on a single acquisition channel.
+online_medium` is the highest-volume lead type — 5,700 leads generating $951.9K — but it does **not** dominate to the same extreme degree seen in the full customer dataset. The marketing funnel is more distributed than the overall revenue base, with `Industry`, `online_big`, and `online_small` all contributing meaningfully in relative terms.
 
-The **revenue-per-customer figures are remarkably similar across all channels** (~$159–$176), which means there is no obvious "premium channel" delivering higher-quality customers. The concentration risk is therefore a **diversification problem, not a quality problem**, the other channels could be scaled up without sacrificing customer quality.
+**Revenue per lead is strikingly uniform across all channels** — ranging from ~$159 (`online_small`) to ~$176 (`online_beginner`), a spread of less than 11%. This is a significant finding: **no single lead type is generating materially higher-quality customers than any other.** The channels differ in volume, not in the value of the customers they attract.
+
+**The `Industry` lead type warrants attention.** With 1,500 leads and $241K in revenue (~$161/lead), it is the second-largest contributor and likely represents B2B-adjacent or seller-side acquisition. The revenue density is comparable to digital channels despite presumably different unit economics for outreach — making it a potentially underinvested channel.
+
+**The `online_beginner` channel has the highest revenue per lead (~$176)** despite being second-to-last in volume (338 leads). This suggests early-stage or emerging digital channels may be attracting slightly higher-intent buyers. If acquisition costs for this channel are low, it represents a disproportionate return opportunity.
+
+**`other` is effectively zero** — 11 leads with negligible revenue. Not worth strategic attention at current scale.
+
+> **Key strategic implication:** Because revenue per lead is near-identical across all channels, the acquisition strategy decision is purely a **volume and cost question**. The business should identify which channels have the lowest cost-per-lead and scale those — the customer quality will be equivalent regardless of which channel delivers them.
 
 ---
 
