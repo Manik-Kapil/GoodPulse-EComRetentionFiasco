@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-1. [Platform & Project Overview](#1-platform--project-overview)
+1. [Platform & Project Overview](#1-organization-overview-and-summary)
 2. [OKR Framework](#2-okr-framework)
 3. [Executive Overview — Northstar Metrics](#3-executive-overview--northstar-metrics)
    - 3.1 [Customer Distribution by Frequency](#31-customer-distribution-by-frequency)
@@ -33,9 +33,75 @@
 
 ---
 
-## 1. Platform & Project Overview
+## 1. Organization Overview and Summary 
 
-GoodPulse is a cloud-native analytics platform built to surface actionable intelligence from the Olist e-commerce marketplace. The pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
+GoodPulse is a digitally native ecommerce business. The company operates across multiple acquisition channels and product categories. While revenue volume appears strong, preliminary analysis reveals structural challenges in customer retention and lifecycle sustainability. 
+
+The pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
+
+**Executive Summary**
+Core Structural Issue: Extremely Low Repeat Rate
+
+The most critical finding is a repeat purchase rate of approximately 0.03%.
+
+Out of 93,358 customers:
+- ~90K are one-time buyers
+- Fewer than 3% return for additional purchases
+- Only 19 customers qualify as power users
+
+This indicates that GoodPulse operates almost entirely on first-time transactional revenue.
+
+**Revenue Sustainability Risk**
+
+Despite generating $15.5M in total revenue, the majority of revenue is sourced from one-time buyers.
+
+Revenue concentration analysis shows:
+
+High Value customers generate the majority of total revenue
+
+However, most high-value revenue is classified as Dormant
+
+High Value Dormant Revenue: $4.9M
+High Value Recent Revenue: $1.7M
+
+This indicates significant leakage of previously valuable customers.
+
+Cohort Retention Analysis
+
+Cohort analysis reveals immediate retention decay:
+
+Month 0 retention = 100%
+
+Month 1 retention drops sharply toward zero
+
+Retention remains negligible beyond Month 1
+
+This confirms the repeat rate issue at a structural level.
+
+The business lacks customer lifecycle stickiness.
+
+Lifecycle Distribution
+
+Revenue distribution by lifecycle segment:
+
+Dormant > Active > At Risk
+
+This means more revenue is sitting in inactive customers than in actively engaged ones.
+
+Without retention improvement, revenue will depend entirely on constant acquisition.
+
+Key Risks Identified
+
+Revenue is acquisition-dependent
+
+Customer lifetime value is structurally constrained
+
+High-value customers are not retained
+
+Cohorts fail to mature beyond initial purchase
+
+Long-term growth is unstable without retention improvement
+
 
 **Pipeline Layers:**
 
