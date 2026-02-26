@@ -43,9 +43,7 @@ The company operates across multiple acquisition channels and product categories
 The data pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
 
 **Executive Summary** </br>
-Core Structural Issue: Extremely Low Repeat Rate
-
-The most critical finding is a repeat purchase rate of approximately 0.03%.
+Core Structural Issue: Extremely Low Repeat Rate. The most critical finding is a repeat purchase rate of approximately 3.0%.
 
 Out of 93,358 customers:
 - ~90K are one-time buyers
@@ -54,7 +52,7 @@ Out of 93,358 customers:
 
 This indicates that GoodPulse operates almost entirely on first-time transactional revenue.
 
-**Revenue Sustainability Risk**</br>
+**Revenue Sustainability Risk** </br>
 Despite generating $15.5M in total revenue, the majority of revenue is sourced from one-time buyers.
 Revenue concentration analysis shows:
 
@@ -65,7 +63,7 @@ Revenue concentration analysis shows:
 
 This indicates significant leakage of previously valuable customers.
 
-**Cohort Retention Analysis**</br>
+**Cohort Retention Analysis** </br>
 Cohort analysis reveals immediate retention decay:
 - Month 0 retention = 100%
 - Month 1 retention drops sharply toward zero
@@ -73,12 +71,12 @@ Cohort analysis reveals immediate retention decay:
 
 This confirms the repeat rate issue at a structural level. The business lacks customer lifecycle stickiness.
 
-**Lifecycle Distribution**</br>
+**Lifecycle Distribution** </br>
 Revenue distribution by lifecycle segment:
 *Dormant > Active > At Risk*
 This means more revenue is sitting in inactive customers than in actively engaged ones. Without retention improvement, revenue will depend entirely on constant acquisition.
 
-**Key Risks Identified**</br>
+**Key Risks Identified** </br>
 
 1. Revenue is acquisition-dependent
 2. Customer lifetime value is structurally constrained
