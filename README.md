@@ -1,5 +1,5 @@
 ![GoodPulse Logo](./goodpulse_logo.svg)
-# GoodPulse — Executive Performance Report
+# Executive Performance Report
 
 > **Data Stack:** Amazon S3 · Databricks (Medallion Architecture) · Looker
 > **Dataset:** Olist E-Commerce + Olist Marketing (Kaggle)
@@ -177,8 +177,6 @@ The two pivot tables cross-reference **Recency** (Dormant / Aging / Recent) agai
 | Mid Value | $3.7M | $1.4M | $1.3M |
 | Low Value | $447K | $154K | $147K |
 
-<!-- PLACEHOLDER: img_pivot_customers.jpg -->
-
 **Customer Count by Recency Bucket:**
 
 | Value Segment | Dormant | Aging | Recent |
@@ -216,8 +214,6 @@ The practical implication: improving last-mile logistics is not just an operatio
 ## 4. Customer Segmentation
 
 The `goodpulse.gold.customer_segmentation` table applies RFM logic combined with lifecycle flags to classify every customer into an actionable segment. These segments directly inform CRM targeting, marketing spend allocation, and retention strategy.
-
-<!-- PLACEHOLDER: img_seg_dist_revenue.jpg -->
 
 ---
 
