@@ -137,8 +137,7 @@ At first glance, the platform is generating meaningful scale. But two numbers de
 
 ### 3.1 Customer Distribution by Frequency
 
-![Frequency Distribution]
-([img_freq_distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/78bd3a1d2078d8dcf2c7e6145ee10163f2e4fad7/img_freq_distribution.png)
+![Frequency Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/78bd3a1d2078d8dcf2c7e6145ee10163f2e4fad7/img_freq_distribution.png)
 
 The frequency breakdown confirms how skewed the customer base is:
 
@@ -155,8 +154,8 @@ The frequency breakdown confirms how skewed the customer base is:
 ### 3.2 Revenue per Customer — Monetization Imbalance
 
 ![Monetization Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/067de9a44dd9ffb329e4c326f519b64370961850/monetization_imbalance.png)
-The bar chart surfaces a stark monetization gap across value tiers:
 
+The bar chart surfaces a stark monetization gap across value tiers:
 - **High Value:** $436.30 per customer
 - **Mid Value:** $113.90 per customer
 - **Low Value:** $39.80 per customer
@@ -225,7 +224,7 @@ The `goodpulse.gold.customer_segmentation` table applies RFM logic combined with
 
 The ten largest segments by customer count:
 
-[!Segment Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Segment%20Distribution.png)
+![Segment Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Segment%20Distribution.png)
 
 The landscape is overwhelmingly one-time buyers at various lifecycle stages. The **6,300 Dormant High Value one-time buyers** are a critical win-back target — they have demonstrated purchase intent and high spend capacity, they just haven't come back. The **593 Active High Value Regular customers** are the platform's most valuable recurring buyers and should be treated as a VIP tier.
 
@@ -235,7 +234,7 @@ The landscape is overwhelmingly one-time buyers at various lifecycle stages. The
 
 The revenue distribution, broken out by acquisition channel, reveals both the value hierarchy and channel efficiency:
 
-[!Segment Revenue Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Seg%20Rev%20Dist.png)
+![Segment Revenue Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/2b0a8fb7e4632029391ba39e1f52d865bbae4f96/Seg%20Rev%20Dist.png)
 
 **Organic search** dominates acquisition across all high-value segments. This is a positive signal: customers are finding the platform through genuine discovery, not paid dependency. Paid search and social channels are present but contribute a small fraction of revenue — before investing further in these channels, attribution analysis should validate whether they are attracting lower-quality customers or simply underleveraged.
 
@@ -249,7 +248,7 @@ The revenue distribution, broken out by acquisition channel, reveals both the va
 
 ### 5.1 Cohort Retention Heatmap
 
-[!HeatMap](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/f3fa0872540889edfba54f794b54a7d2d63d6d5c/Cohort%20HeatMap.png)
+![HeatMap](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/f3fa0872540889edfba54f794b54a7d2d63d6d5c/Cohort%20HeatMap.png)
 
 The heatmap, derived from `goodpulse.gold.cohort_retention`, tracks what percentage of customers from each quarterly acquisition cohort return to purchase in subsequent periods. The data spans Q1 2017 through Q3 2018 and tells a consistent story:
 
