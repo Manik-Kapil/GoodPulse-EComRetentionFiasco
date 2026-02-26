@@ -122,14 +122,6 @@ The analysis is structured around the **OKR → KPI → Metric pyramid**. Every 
 
 ![North Star Metrics](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/b666bc9562480c75cdc9511c1d43c1ce354f4348/img_northstar_metrics.png)
 
-| Metric | Value |
-|--------|-------|
-| Total Customers | 93,358 |
-| Total Revenue | $15.49M |
-| Average Order Value | $160.32 |
-| Total Orders | 96.5K |
-| Repeat Rate | 3.00% |
-
 At first glance, the platform is generating meaningful scale. But two numbers demand immediate attention: a **3% repeat rate** and only **19 Power Users** out of 93,358 customers. These signal a platform that is very good at acquiring customers and very poor at retaining them — a structural problem, not a cyclical one.
 
 ---
