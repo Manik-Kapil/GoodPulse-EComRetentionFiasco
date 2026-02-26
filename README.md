@@ -249,9 +249,9 @@ The revenue distribution, broken out by acquisition channel, reveals both the va
 
 ### 5.1 Cohort Retention Heatmap
 
-<!-- PLACEHOLDER: img_cohort_heatmap.jpg -->
+[!HeatMap](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/f3fa0872540889edfba54f794b54a7d2d63d6d5c/Cohort%20HeatMap.png)
 
-The heatmap, derived from `goodpulse.gold.cohort_analysis`, tracks what percentage of customers from each quarterly acquisition cohort return to purchase in subsequent periods. The data spans Q1 2017 through Q3 2018 and tells a consistent story:
+The heatmap, derived from `goodpulse.gold.cohort_retention`, tracks what percentage of customers from each quarterly acquisition cohort return to purchase in subsequent periods. The data spans Q1 2017 through Q3 2018 and tells a consistent story:
 
 **Reading the heatmap correctly:**
 - `cohort_index 0` = the acquisition period itself (always 100%)
@@ -281,32 +281,24 @@ The heatmap, derived from `goodpulse.gold.cohort_analysis`, tracks what percenta
 - The retention problem is concentrated at the **point of second purchase conversion**, not at later stages. Customers who do make a second purchase tend to show some, if low, continued activity at indices 3–6
 - This pattern is consistent with the **3% platform-wide repeat rate** — the cohort view confirms it is structural
 
-The absence of improvement across cohort generations is the critical signal here. It rules out "early platform growing pains" as an explanation — the retention problem persists regardless of when customers were acquired.
+The absence of improvement across cohort generations is the **critical signal** here. It rules out "early platform growing pains" as an explanation,   ` the retention problem persists regardless of when customers were acquired.
 
 ---
 
 ### 5.2 Revenue by Acquisition Channel
 
-<!-- PLACEHOLDER: img_acq_channel_lifecycle.jpg -->
+![Acquisition Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/7c45d73cdd3c61aed41edc3d5f65d210c7243f58/Acq%20Channel.png)
 
-| Channel | Revenue | Customers | Revenue per Customer |
-|---------|---------|-----------|----------------------|
-| online_medium | $13.8M | 83K | ~$166 |
-| industry | $951.9K | 5.7K | ~$167 |
-| online_big | $241K | 1.5K | ~$161 |
-| online_small | $164.8K | 957 | ~$172 |
-| offline | $108.9K | 683 | ~$159 |
-| online_top | $101.8K | 609 | ~$167 |
-| online_beginner | $102.5K | 599 | ~$171 |
-| other | $59.6K | 338 | ~$176 |
 
-`online_medium` dominates volume entirely — 83K customers and $13.8M represents **89% of total customers and 89% of total revenue**. The platform is near-entirely dependent on a single acquisition channel.
+`online_medium` dominates volume entirely, 83K customers and $13.8M represents **89% of total customers and 89% of total revenue**. The platform is near-entirely dependent on a single acquisition channel.
 
-The **revenue-per-customer figures are remarkably similar across all channels** (~$159–$176), which means there is no obvious "premium channel" delivering higher-quality customers. The concentration risk is therefore a **diversification problem, not a quality problem** — the other channels could be scaled up without sacrificing customer quality.
+The **revenue-per-customer figures are remarkably similar across all channels** (~$159–$176), which means there is no obvious "premium channel" delivering higher-quality customers. The concentration risk is therefore a **diversification problem, not a quality problem**, the other channels could be scaled up without sacrificing customer quality.
 
 ---
 
 ### 5.3 Lifecycle Revenue Distribution
+
+![Acquisition Revenue Distribution](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/7c45d73cdd3c61aed41edc3d5f65d210c7243f58/Acq%20Channel%20Rev.png)
 
 | Lifecycle State | Revenue | Share |
 |-----------------|---------|-------|
